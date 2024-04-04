@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+
+
+html {
+    background-color: rgb(172, 187, 216);
+}
+
+.contenedor-header {
+    display: flex;
+    align-items:end;
+    background-color:rgb(214, 214, 214);
+    
+}
+
+.banner {
+    text-align: start;
+    width: 50%;
+}
+
+.links-nav{
+    text-align: end;
+    list-style-type: none;
+}
+
+header ul {
+    
+    list-style-type: none;
+    display: flex;   
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+}
+
+
+.Titulo {
+    font-family:"kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    color: mediumblue;
+    background: #d3d3d3;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+.barralateral {
+    display: flex;
+    align-items:center;
+    background-color: mediumblue;
+    flex-direction:row;
+    position: relative;
+    justify-content: space-evenly;
+    
+}
+.links-externos {
+    gap: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ /*imagen principal index*/
+.foto-principal {
+    text-align: start;
+    width: 85%;
+    height: 500px;
+    object-fit: cover;
+}
+
+/*imagen principal quienes somos*/
+.imagenquienesomos {
+    width: 100%;
+}
+
+/*imagen principal derecho privado*/
+
+.img-privada {
+    width: 100%;
+}
+
+/*imagen principal derecho familia*/
+
+main .img-familia {
+    width: 100%;
+}
+
+
+
+
+/*foto principal derecho penal*/
+main .img-penal {
+    width: 100%;
+}
+
+
+/*fonts quienes somos*/
+main .fontquien {
+    font-family: "Kanit";
+    text-align: justify;
+    font-size: 20px;
+    text-decoration:underline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*fonts derecho privado*/
+
+.descripcion {
+    font-family: "Kanit";
+    text-align: justify;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*mapa donde encontrarnos*/
+
+.formulario-mapa {
+    background-color: rgb(208, 214, 214);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    display: flex;
+    align-items: end;
+    margin-top: 10px;
+
+}
+
+main .map {
+    text-align: end;
+    margin-right: 50px;
+}
+
+main ul {
+    list-style-type: none;
+    margin-top: 80px;
+    margin-right: 10px;
+    margin-left: -15px;
+ 
+}
+
+main ul li {
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+        
+}
+
+main ul li a {
+    color: lightgray;
+}
+
+.secciones{
+    display: flex;
+        
+}
+
+
+.seccion { 
+    border: 2px solid;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-block-start: 10px;
+    background-color:rgb(227, 228, 230);
+    
+}
+
+.seccion a {
+    display: inline-block;
+    line-height: 5;
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 40%;
+    
+
+}
+
+.seccion-aranceles {
+    background-color: mediumblue;
+}
+
+.secciones p {
+    text-align: justify;
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+.aranceles li {
+    padding-bottom: 40px;
+    color: rgb(193, 201, 201);
+}
+
+.citas {
+    background-color: rgb(208, 214, 214);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Redes ul {
+    list-style-type: none;
+}
+
+.imagen-whatsapp {
+    width: 50px;
+}
+.imagen-face {
+    width: 50px;
+}
+
+.imagen-ig {
+    width: 55px;
+}
+
+.imagen-gmail {
+    width: 50px;
+}
+
+footer {
+    background-color: rgb(203, 203, 207);
+}
+
+footer ul {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.li-a{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+.container-boton {
+    
+    
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 25px;
+    transition: ease 0.3s;
+
+}
+
+.container-boton :hover{ 
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.boton-wsp {
+    width: 80px;
+    transition: ease 1s;
+
+}

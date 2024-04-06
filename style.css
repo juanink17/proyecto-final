@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
 
+*{
+    margin: 0px;
+}
 
 html {
-    background-color: rgb(172, 187, 216);
+    background-color: rgb(201, 201, 201);
 }
 
 .contenedor-header {
     display: flex;
-    align-items:end;
-    background-color:rgb(214, 214, 214);
+    align-items:center;
+    background-color:mediumblue;
+    justify-content:space-between;
+    padding-right: 150px;
+    
     
 }
 
@@ -20,17 +26,29 @@ html {
 .links-nav{
     text-align: end;
     list-style-type: none;
+    position: relative;
 }
 
 header ul {
     
     list-style-type: none;
     display: flex;   
-    justify-content: space-between;
     gap: 80px;
-    align-items: center;
+    
 }
 
+
+.unlist :active{
+    color: blue;
+}
+
+.unlist :visited {
+    color:rgb(104, 191, 245) ;
+}
+
+.unlist :hover{
+   color: rgb(25, 236, 247);
+}
 
 .Titulo {
     font-family:"kanit";
@@ -39,7 +57,7 @@ header ul {
     font-size: 70px;
     text-align: center;
     color: mediumblue;
-    background: #d3d3d3;
+    background: #afadad;
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 
@@ -130,7 +148,7 @@ main .map {
     text-align: end;
     margin-right: 50px;
 }
-
+ /*barra lateral*/
 main ul {
     list-style-type: none;
     margin-top: 80px;
@@ -152,42 +170,65 @@ main ul li a {
     color: lightgray;
 }
 
+/* secciones de las ramas a consultar */
+
 .secciones{
     display: flex;
+    width: 100%;
+    height: 400px;
         
 }
 
 
 .seccion { 
+    display: flex;
+    flex-direction: column;
+    position: relative;
     border: 2px solid;
+    padding: 20px;
     margin-right: 10px;
     margin-left: 10px;
     margin-block-start: 10px;
-    background-color:rgb(227, 228, 230);
+    background-color:rgb(204, 204, 205);
+    border-radius: 10px;
+    overflow-y: hidden;
+    padding-bottom: 500px;
     
 }
 
-.seccion a {
+.boton-consulta {
+    width: 100px;
+    height: 40px;
+    color: #c2bfbf;
+    background-color: rgb(39, 39, 238);
     display: inline-block;
-    line-height: 5;
-    font-size: larger;
+    font-size: 14px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 40%;
+    position: absolute;
+    bottom: 5%;
     
+}
 
+
+.texto-seccion {
+    margin: 10px;
+    width: 95%;
+    height: 70%;
+    overflow-y: hidden;
+    display: flex;
+    position: absolute;
+    bottom: 20%;
+}
+
+.secciones p {
+    text-align: justify;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .seccion-aranceles {
     background-color: mediumblue;
 }
-
-.secciones p {
-    text-align: justify;
-    margin-right: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
 
 
 .aranceles li {
@@ -210,6 +251,10 @@ main ul li a {
 
 .imagen-whatsapp {
     width: 50px;
+    padding-right: 40px;
+    
+    
+    
 }
 .imagen-face {
     width: 50px;
@@ -220,27 +265,40 @@ main ul li a {
 }
 
 .imagen-gmail {
+    display: flex;
     width: 50px;
+    
 }
 
-footer {
-    background-color: rgb(203, 203, 207);
-}
+
+
 
 footer ul {
     display: flex;
-    position: relative;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 30px;
+      
+    
 }
 
-.li-a{
-    display: flex;
-    align-items: center;
+.li-redes {
+    
+    position: relative;
+    justify-content: center;
+        width: 80px;
+       
 }
 
-
-
+.li-a {
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    justify-content: center;
+    
+    
+  
+    
+}
 
 
 .container-boton {

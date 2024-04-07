@@ -2,6 +2,8 @@
 
 *{
     margin: 0px;
+    box-sizing: 0px
+    ;
 }
 
 html {
@@ -18,6 +20,8 @@ html {
     
 }
 
+
+
 .banner {
     text-align: start;
     width: 50%;
@@ -30,20 +34,23 @@ html {
 }
 
 header ul {
-    
     list-style-type: none;
     display: flex;   
     gap: 80px;
     
 }
 
+header a {
+    text-decoration: none;
+}
+
 
 .unlist :active{
-    color: blue;
+    color: rgb(152, 152, 152);
 }
 
 .unlist :visited {
-    color:rgb(104, 191, 245) ;
+    color:rgb(255, 255, 255) ;
 }
 
 .unlist :hover{
@@ -68,12 +75,13 @@ header ul {
     flex-direction:row;
     position: relative;
     justify-content: space-evenly;
-    
+        
 }
 .links-externos {
     gap: 80px;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
  /*imagen principal index*/
@@ -87,26 +95,34 @@ header ul {
 /*imagen principal quienes somos*/
 .imagenquienesomos {
     width: 100%;
+    height: 700px;
+    object-fit: cover;
 }
 
 /*imagen principal derecho privado*/
 
 .img-privada {
     width: 100%;
+    height: 700px;
+    object-fit: cover;
 }
 
 /*imagen principal derecho familia*/
 
-main .img-familia {
+.img-familia {
     width: 100%;
+    height: 700px;
+    object-fit: cover;
 }
 
 
 
 
 /*foto principal derecho penal*/
-main .img-penal {
+.img-penal {
     width: 100%;
+    height: 700px;
+    object-fit: cover;
 }
 
 
@@ -124,12 +140,14 @@ main .fontquien {
 /*fonts derecho privado*/
 
 .descripcion {
+    color: rgb(175, 171, 171);
+    background-color: mediumblue;
     font-family: "Kanit";
     text-align: justify;
     font-size: 20px;
-    text-decoration: underline;
-    margin-left: 20px;
-    margin-right: 20px;
+    text-decoration: none;
+    padding: 30px 10px;
+  
 }
 
 /*mapa donde encontrarnos*/
@@ -140,13 +158,14 @@ main .fontquien {
     font-weight: 700;
     display: flex;
     align-items: end;
-    margin-top: 10px;
+    padding: 30px 20px;
 
 }
 
 main .map {
     text-align: end;
     margin-right: 50px;
+   
 }
  /*barra lateral*/
 main ul {
@@ -299,6 +318,13 @@ footer ul {
   
     
 }
+
+/*footer de quienes somos*/
+.footer-color {
+    background-color: #ada6a6;
+}
+
+
 
 
 .container-boton {

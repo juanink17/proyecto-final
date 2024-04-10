@@ -2,9 +2,13 @@
 
 *{
     margin: 0px;
-    box-sizing: 0px
-    ;
+    box-sizing: 0px;
+    padding: 0px;
 }
+
+
+    
+
 
 html {
     background-color: rgb(201, 201, 201);
@@ -14,12 +18,11 @@ html {
     display: flex;
     align-items:center;
     background-color:mediumblue;
-    justify-content:space-between;
-    padding-right: 150px;
+    justify-content: space-between; 
+    position: relative;
     
     
 }
-
 
 
 .banner {
@@ -30,7 +33,9 @@ html {
 .links-nav{
     text-align: end;
     list-style-type: none;
-    position: relative;
+    right: 8%;
+    position: absolute;
+   
 }
 
 header ul {
@@ -42,6 +47,7 @@ header ul {
 
 header a {
     text-decoration: none;
+    color: #ada6a6;
 }
 
 
@@ -128,12 +134,13 @@ header a {
 
 /*fonts quienes somos*/
 main .fontquien {
+    color: rgb(175, 171, 171);
+    background-color: mediumblue;
     font-family: "Kanit";
     text-align: justify;
     font-size: 20px;
-    text-decoration:underline;
-    margin-left: 20px;
-    margin-right: 20px;
+    text-decoration: none;
+    padding: 30px 20px;
 }
 
 
@@ -171,7 +178,7 @@ main .map {
 main ul {
     list-style-type: none;
     margin-top: 80px;
-    margin-right: 10px;
+    
     margin-left: -15px;
  
 }
@@ -247,6 +254,7 @@ main ul li a {
 
 .seccion-aranceles {
     background-color: mediumblue;
+    padding-left: 20px;
 }
 
 
@@ -327,6 +335,8 @@ footer ul {
 
 
 
+
+
 .container-boton {
     
     
@@ -349,4 +359,743 @@ footer ul {
     width: 80px;
     transition: ease 1s;
 
+}
+
+/* Reglas de media query*/
+
+/* celular*/
+@media only screen and (max-width: 576px) {
+
+    *{
+        margin: 0px;
+        box-sizing: 0px;
+        padding: 0px;
+    }
+
+        
+    .contenedor-header {
+        display: flex;
+        align-items:center;
+        background-color:mediumblue;
+        justify-content: space-between; 
+        position: relative;
+    }
+
+    .banner {
+        text-align: start;
+        width: 50%;
+    }
+
+    .links-nav {
+        width: 40%;
+        font-size: 6px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 30px;
+        
+        
+    }
+
+    
+   
+
+    .Titulo {
+        font-family:"kanit";
+        font-style: italic;
+        font-weight: 900;
+        font-size: 40px;
+        text-align: center;
+        color: mediumblue;
+        background: #afadad;
+        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        
+    }
+
+    .foto-principal {
+        width: 80%;
+        height: 200px;
+    }
+
+    .img-privada {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-penal {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-familia {
+        width: 100%;
+        height: 200px;
+    }
+
+    .imagenquienesomos {
+        width: 100%;
+        height: 200px;
+    }
+
+    .seccion-aranceles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secciones {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 1500px;
+    }
+
+            
+
+    .aranceles {
+        display: inline-block;
+    }
+
+    .citas {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .formulario-mapa {
+        display: flex;  
+        flex-direction: column;
+        position: relative;
+    }
+
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+
+    .links-externos a {
+        font-size: 8px;
+        padding-left: 20px;
+    }
+
+
+    .boton-wsp {
+        width: 50px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+    
+    
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    
+    }
+}
+
+/* Reglas de media query*/
+
+/* tablet */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+
+    *{
+        margin: 0px;
+        box-sizing: 0px;
+        padding: 0px;
+    }
+
+    .contenedor-header {
+        display: flex;
+        align-items:center;
+        background-color:mediumblue;
+        justify-content: space-between; 
+        position: relative;
+    }
+
+    .banner {
+        text-align: start;
+        width: 50%;
+    }
+
+    .links-nav {
+        width: 40%;
+        font-size: 9px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 37px;
+        
+        
+    }
+
+    
+   
+
+    .Titulo {
+        font-family:"kanit";
+        font-style: italic;
+        font-weight: 900;
+        font-size: 40px;
+        text-align: center;
+        color: mediumblue;
+        background: #afadad;
+        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        
+    }
+
+    .foto-principal {
+        width: 80%;
+        height: 200px;
+    }
+
+    .img-privada {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-penal {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-familia {
+        width: 100%;
+        height: 200px;
+    }
+
+    .imagenquienesomos {
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .seccion-aranceles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secciones {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 1500px;
+    }
+
+            
+
+    .aranceles {
+        display: inline-block;
+    }
+
+    .citas {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .formulario-mapa {
+        display: flex;  
+        flex-direction: column;
+        position: relative;
+    }
+
+
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+
+    .links-externos a {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+
+
+    .boton-wsp {
+        width: 50px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+    
+    
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+    *{
+        margin: 0px;
+        box-sizing: 0px;
+        padding: 0px;
+    }
+
+    .contenedor-header {
+        display: flex;
+        align-items:center;
+        background-color:mediumblue;
+        justify-content: space-between; 
+        position: relative;
+    }
+
+    .banner {
+        text-align: start;
+        width: 50%;
+    }
+
+    .links-nav {
+        width: 40%;
+        font-size: 10px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 60px;
+        
+        
+    }
+
+    
+    .Titulo {
+        font-family:"kanit";
+        font-style: italic;
+        font-weight: 900;
+        font-size: 50px;
+        text-align: center;
+        color: mediumblue;
+        background: #afadad;
+        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        
+    }
+
+
+    .seccion-aranceles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secciones {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 1500px;
+    }
+
+    .seccion h3 {
+        font-size: 24px;
+    }
+
+    .seccion p {
+        font-size: 20px;
+    }
+
+            
+
+    .aranceles {
+        display: inline-block;
+    }
+
+    .citas {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+
+    .links-externos a {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+
+    .boton-wsp {
+        width: 50px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+    
+    
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    *{
+        margin: 0px;
+        box-sizing: 0px;
+        padding: 0px;
+    }
+
+    .contenedor-header {
+        display: flex;
+        align-items:center;
+        background-color:mediumblue;
+        justify-content: space-between; 
+        position: relative;
+    }
+
+    .banner {
+        text-align: start;
+        width: 50%;
+    }
+
+    .links-nav {
+        width: 40%;
+        font-size: 12px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 70px;
+        
+        
+    }
+
+    
+    .Titulo {
+        font-family:"kanit";
+        font-style: italic;
+        font-weight: 900;
+        font-size: 60px;
+        text-align: center;
+        color: mediumblue;
+        background: #afadad;
+        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        
+    }
+
+
+    .seccion-aranceles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secciones {
+        display: flex;
+        
+        width: 100%;
+        height:4
+        00px;
+    }
+
+    .seccion {
+       display: flex;
+       position: relative;
+    } 
+
+    .boton-consulta {
+        position: absolute;
+        right: 35%;
+    }
+
+    .seccion p {
+        font-size: 14px;
+    }
+    
+
+    .aranceles {
+        display: inline-block;
+    }
+
+    .citas {
+        padding-right: 10px;
+    }
+
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+
+    .links-externos a {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+
+    .boton-wsp {
+        width: 70px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+    
+    
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    
+    }
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+    *{
+        margin: 0px;
+        box-sizing: 0px;
+        padding: 0px;
+    }
+
+    .contenedor-header {
+        display: flex;
+        align-items:center;
+        background-color:mediumblue;
+        justify-content: space-between; 
+        position: relative;
+    }
+
+    .banner {
+        text-align: start;
+        width: 50%;
+    }
+
+    .links-nav {
+        width: 40%;
+        font-size: 10px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 60px;
+        
+        
+    }
+
+    
+    .Titulo {
+        font-family:"kanit";
+        font-style: italic;
+        font-weight: 900;
+        font-size: 50px;
+        text-align: center;
+        color: mediumblue;
+        background: #afadad;
+        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        
+    }
+
+
+    .seccion-aranceles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secciones {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 1500px;
+    }
+
+    .seccion h3 {
+        font-size: 24px;
+    }
+
+    .seccion p {
+        font-size: 20px;
+    }
+
+            
+
+    .aranceles {
+        display: inline-block;
+    }
+
+    .citas {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+
+    .links-externos a {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+
+    .boton-wsp {
+        width: 50px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+    
+    
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    
+    }
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+
+    *{
+        margin: 0px;
+        box-sizing: 0px;
+        padding: 0px;
+    }
+
+    .contenedor-header {
+        display: flex;
+        align-items:center;
+        background-color:mediumblue;
+        justify-content: space-between; 
+        position: relative;
+    }
+
+    .banner {
+        text-align: start;
+        width: 50%;
+    }
+
+    .links-nav {
+        width: 40%;
+        font-size: 12px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 80px;
+        
+        
+    }
+
+    
+    .Titulo {
+        font-family:"kanit";
+        font-style: italic;
+        font-weight: 900;
+        font-size: 60px;
+        text-align: center;
+        color: mediumblue;
+        background: #afadad;
+        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        
+    }
+
+
+    .seccion-aranceles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secciones {
+        display: flex;
+        width: 100%;
+        height:4
+        00px;
+    }
+
+    .seccion {
+       display: flex;
+       position: relative;
+    } 
+
+    .boton-consulta {
+        position: absolute;
+        right: 35%;
+    }
+
+    .seccion p {
+        font-size: 14px;
+    }
+    
+
+    .aranceles {
+        display: inline-block;
+    }
+
+    .citas {
+        padding-right: 10px;
+    }
+
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+
+    .links-externos a {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+
+
+    .boton-wsp {
+        width: 70px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+    
+    
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    
+    }
 }

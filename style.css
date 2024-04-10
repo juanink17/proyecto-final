@@ -312,7 +312,7 @@ footer ul {
     
     position: relative;
     justify-content: center;
-        width: 80px;
+    width: 80px;
        
 }
 
@@ -510,6 +510,22 @@ footer ul {
         right: 15px;
         transition: ease 0.3s;
     
+    }
+
+    .imagen-whatsapp {
+        width: 30px;
+    }
+
+    .imagen-face {
+        width: 30px;
+    }
+
+    .imagen-ig {
+        width: 35px;
+    }
+
+    .imagen-gmail {
+        width: 30px;
     }
 }
 

@@ -1,0 +1,150 @@
+.links-nav{
+    text-align: end;
+    list-style-type: none;
+    right: 8%;
+    position: absolute;
+   
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;   
+    gap: 80px;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: #ada6a6;
+}
+
+
+.unlist :active{
+    color: rgb(152, 152, 152);
+}
+
+.unlist :visited {
+    color:rgb(255, 255, 255) ;
+}
+
+.unlist :hover{
+   color: rgb(25, 236, 247);
+}
+
+@media only screen and (max-width: 425px) {
+    .links-nav {
+        width: 40%;
+        font-size: 6px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 20px;
+                
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+    .links-nav {
+        width: 40%;
+        font-size: 6px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 30px;
+               
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .links-nav {
+        width: 40%;
+        font-size: 9px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 37px;
+    }    
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .links-nav {
+        width: 40%;
+        font-size: 10px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 60px;
+            
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .links-nav {
+        width: 40%;
+        font-size: 12px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 70px;
+                
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .links-nav {
+        width: 40%;
+        font-size: 10px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 60px;
+         
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+    .links-nav {
+        width: 40%;
+        font-size: 12px;
+        text-align: end;
+        display: flex;  
+        position: absolute;
+        
+    }
+
+    header ul {
+        display: flex;
+        gap: 80px;     
+        
+    }
+}

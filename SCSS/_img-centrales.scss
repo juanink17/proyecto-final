@@ -1,0 +1,142 @@
+/*imagen principal archivo index*/
+.foto-principal {
+    text-align: start;
+    width: 85%;
+    height: 500px;
+    object-fit: cover;
+}
+   
+/*imagen principal quienes somos*/
+.imagenquienesomos {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+/*imagen principal derecho privado*/
+
+.img-privada {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+/*imagen principal derecho familia*/
+
+.img-familia {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+/*foto principal derecho penal*/
+.img-penal {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 425px) {
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    .img-privada {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-penal {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-familia {
+        width: 100%;
+        height: 200px;
+    }
+
+    .imagenquienesomos {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+    .foto-principal {
+        width: 80%;
+        height: 200px;
+    }
+
+    .img-privada {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-penal {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-familia {
+        width: 100%;
+        height: 200px;
+    }
+
+    .imagenquienesomos {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .foto-principal {
+        width: 80%;
+        height: 200px;
+    }
+
+    .img-privada {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-penal {
+        width: 100%;
+        height: 200px;
+    }
+
+    .img-familia {
+        width: 100%;
+        height: 200px;
+    }
+
+    .imagenquienesomos {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+    .foto-principal {
+        width: 80%;
+        height: 400px;
+    }
+}
+
+

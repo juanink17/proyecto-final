@@ -1,1264 +1,976 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
-
-*{
-    margin: 0px;
-    box-sizing: 0px;
-    padding: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap");
+* {
+  margin: 0px;
+  box-sizing: 0px;
+  padding: 0px;
 }
-
-
-    
-
 
 html {
-    background-color: rgb(201, 201, 201);
+  background-color: rgb(201, 201, 201);
 }
 
-.contenedor-header {
-    display: flex;
-    align-items:center;
-    background-color:mediumblue;
-    justify-content: space-between; 
-    position: relative;
-    
-    
-}
-
-
-.banner {
-    text-align: start;
-    width: 50%;
-}
-
-.links-nav{
-    text-align: end;
-    list-style-type: none;
-    right: 8%;
-    position: absolute;
-   
+.links-nav {
+  text-align: end;
+  list-style-type: none;
+  right: 8%;
+  position: absolute;
 }
 
 header ul {
-    list-style-type: none;
-    display: flex;   
-    gap: 80px;
-    
+  list-style-type: none;
+  display: flex;
+  gap: 80px;
 }
 
 header a {
-    text-decoration: none;
-    color: #ada6a6;
+  text-decoration: none;
+  color: #ada6a6;
 }
 
-
-.unlist :active{
-    color: rgb(152, 152, 152);
+.unlist :active {
+  color: rgb(152, 152, 152);
 }
 
 .unlist :visited {
-    color:rgb(255, 255, 255) ;
+  color: rgb(255, 255, 255);
 }
 
-.unlist :hover{
-   color: rgb(25, 236, 247);
+.unlist :hover {
+  color: rgb(25, 236, 247);
+}
+
+.contenedor-header {
+  display: flex;
+  align-items: center;
+  background-color: mediumblue;
+  justify-content: space-between;
+  position: relative;
+}
+
+.banner {
+  text-align: start;
+  width: 50%;
 }
 
 .Titulo {
-    font-family:"kanit";
-    font-style: italic;
-    font-weight: 900;
-    font-size: 70px;
-    text-align: center;
-    color: mediumblue;
-    background: #afadad;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  font-family: "kanit";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+  color: mediumblue;
+  background: #afadad;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 
 .barralateral {
-    display: flex;
-    align-items:center;
-    background-color: mediumblue;
-    flex-direction:row;
-    position: relative;
-    justify-content: space-evenly;
-        
-}
-.links-externos {
-    gap: 80px;
-    align-items: center;
-    justify-content: space-evenly;
-    
+  display: flex;
+  align-items: center;
+  background-color: mediumblue;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-evenly;
 }
 
- /*imagen principal index*/
+.links-externos {
+  gap: 80px;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 80px;
+  margin-left: -15px;
+}
+.links-externos li {
+  padding-bottom: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 700;
+}
+.links-externos a {
+  color: lightgray;
+}
+
+/*imagen principal archivo index*/
 .foto-principal {
-    text-align: start;
-    width: 85%;
-    height: 500px;
-    object-fit: cover;
+  text-align: start;
+  width: 85%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*imagen principal quienes somos*/
 .imagenquienesomos {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*imagen principal derecho privado*/
-
 .img-privada {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*imagen principal derecho familia*/
-
 .img-familia {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-
-
-
 
 /*foto principal derecho penal*/
 .img-penal {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-
 
 /*fonts quienes somos*/
 main .fontquien {
-    color: rgb(175, 171, 171);
-    background-color: mediumblue;
-    font-family: "Kanit";
-    text-align: justify;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 30px 20px;
+  color: rgb(175, 171, 171);
+  background-color: mediumblue;
+  font-family: "Kanit";
+  text-align: justify;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 30px 20px;
 }
-
 
 /*fonts derecho privado*/
-
 .descripcion {
-    color: rgb(175, 171, 171);
-    background-color: mediumblue;
-    font-family: "Kanit";
-    text-align: justify;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 30px 10px;
-  
-}
-
-/*mapa donde encontrarnos*/
-
-.formulario-mapa {
-    background-color: rgb(208, 214, 214);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    display: flex;
-    align-items: end;
-    padding: 30px 20px;
-
-}
-
-main .map {
-    text-align: end;
-    margin-right: 50px;
-   
-}
- /*barra lateral*/
-main ul {
-    list-style-type: none;
-    margin-top: 80px;
-    
-    margin-left: -15px;
- 
-}
-
-main ul li {
-    padding-bottom: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 16px;
-    font-weight: 700;
-        
-}
-
-main ul li a {
-    color: lightgray;
+  color: rgb(175, 171, 171);
+  background-color: mediumblue;
+  font-family: "Kanit";
+  text-align: justify;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 30px 10px;
 }
 
 /* secciones de las ramas a consultar */
-
-.secciones{
-    display: flex;
-    width: 100%;
-    height: 400px;
-        
+.secciones {
+  display: flex;
+  width: 100%;
+  height: 400px;
 }
 
-
-.seccion { 
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    border: 2px solid;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-block-start: 10px;
-    background-color:rgb(204, 204, 205);
-    border-radius: 10px;
-    overflow-y: hidden;
-    padding-bottom: 500px;
-    
+.seccion {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 2px solid;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-block-start: 10px;
+  background-color: rgb(204, 204, 205);
+  border-radius: 10px;
+  overflow-y: hidden;
+  padding-bottom: 500px;
 }
 
 .boton-consulta {
-    width: 100px;
-    height: 40px;
-    color: #c2bfbf;
-    background-color: rgb(39, 39, 238);
-    display: inline-block;
-    font-size: 14px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 40%;
-    position: absolute;
-    bottom: 5%;
-    
+  width: 100px;
+  height: 40px;
+  color: #c2bfbf;
+  background-color: rgb(39, 39, 238);
+  display: inline-block;
+  font-size: 14px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-left: 40%;
+  position: absolute;
+  bottom: 5%;
 }
 
-
 .texto-seccion {
-    margin: 10px;
-    width: 95%;
-    height: 70%;
-    overflow-y: hidden;
-    display: flex;
-    position: absolute;
-    bottom: 20%;
+  margin: 10px;
+  width: 95%;
+  height: 70%;
+  overflow-y: hidden;
+  display: flex;
+  position: absolute;
+  bottom: 20%;
 }
 
 .secciones p {
-    text-align: justify;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: justify;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .seccion-aranceles {
-    background-color: mediumblue;
-    padding-left: 20px;
+  background-color: mediumblue;
+  padding-left: 20px;
 }
 
+.precios-consulta {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
 
 .aranceles li {
-    padding-bottom: 40px;
-    color: rgb(193, 201, 201);
+  margin-top: 10px;
+  padding-bottom: 40px;
+  color: rgb(193, 201, 201);
+  list-style-type: none;
+}
+
+/*mapa donde encontrarnos*/
+.formulario-mapa {
+  background-color: rgb(208, 214, 214);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  display: flex;
+  align-items: end;
+  padding: 30px 20px;
+}
+
+main .map {
+  text-align: end;
+  margin-right: 50px;
 }
 
 .citas {
-    background-color: rgb(208, 214, 214);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
+  background-color: rgb(208, 214, 214);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .Redes ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .imagen-whatsapp {
-    width: 50px;
-    padding-right: 40px;
-    
-    
-    
+  width: 50px;
+  padding-right: 40px;
 }
+
 .imagen-face {
-    width: 50px;
+  width: 50px;
 }
 
 .imagen-ig {
-    width: 55px;
+  width: 55px;
 }
 
 .imagen-gmail {
-    display: flex;
-    width: 50px;
-    
+  display: flex;
+  width: 50px;
 }
 
-
-
-
 footer ul {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 30px;
-      
-    
+  display: flex;
+  justify-content: space-around;
+  margin-right: 30px;
 }
 
 .li-redes {
-    
-    position: relative;
-    justify-content: center;
-    width: 80px;
-       
+  position: relative;
+  justify-content: center;
+  width: 80px;
 }
 
 .li-a {
-    flex-direction: column;
-    position: absolute;
-    top: 10px;
-    justify-content: center;
-    
-    
-  
-    
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  justify-content: center;
 }
 
 /*footer de quienes somos*/
 .footer-color {
-    background-color: #ada6a6;
+  background-color: #ada6a6;
 }
 
-
-
-
-
-
 .container-boton {
-    
-    
+  position: fixed;
+  z-index: 100;
+  border-radius: 60%;
+  bottom: 20px;
+  right: 25px;
+  transition: ease 0.3s;
+}
+
+.container-boton :hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.boton-wsp {
+  width: 80px;
+  transition: ease 1s;
+}
+
+/* Reglas de media query*/
+/* celular*/
+@media only screen and (max-width: 425px) {
+  * {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: 0px;
+  }
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .links-nav {
+    width: 40%;
+    font-size: 6px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 20px;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+  .img-privada {
+    width: 100%;
+    height: 200px;
+  }
+  .img-penal {
+    width: 100%;
+    height: 200px;
+  }
+  .img-familia {
+    width: 100%;
+    height: 200px;
+  }
+  .imagenquienesomos {
+    width: 100%;
+    height: 200px;
+  }
+  .links-externos {
+    gap: 30px;
+  }
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 1500px;
+  }
+  .seccion {
+    position: relative;
+  }
+  .seccion p {
+    font-size: 12px;
+  }
+  .boton-consulta {
+    position: absolute;
+    right: 30%;
+  }
+  .aranceles {
+    display: inline-block;
+  }
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario-mapa {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .links-externos a {
+    font-size: 6px;
+    padding-left: 20px;
+  }
+  .boton-wsp {
+    width: 50px;
+    transition: ease 1s;
+  }
+  .container-boton {
     position: fixed;
     z-index: 100;
     border-radius: 60%;
     bottom: 20px;
-    right: 25px;
+    right: 15px;
     transition: ease 0.3s;
-
+  }
+  .imagen-whatsapp {
+    width: 30px;
+  }
+  .imagen-face {
+    width: 30px;
+  }
+  .imagen-ig {
+    width: 35px;
+  }
+  .imagen-gmail {
+    width: 30px;
+  }
 }
-
-.container-boton :hover{ 
-    transform: scale(1.1);
-    transition: 0.3s;
-
-}
-
-.boton-wsp {
-    width: 80px;
-    transition: ease 1s;
-
-}
-
-/* Reglas de media query*/
-
-/* celular*/
-
-@media only screen and (max-width: 425px) {
-    *{
-        margin: 0px;
-        box-sizing: 0px;
-        padding: 0px;
-    }
-
-        
-    .contenedor-header {
-        display: flex;
-        align-items:center;
-        background-color:mediumblue;
-        justify-content: space-between; 
-        position: relative;
-    }
-
-    .banner {
-        text-align: start;
-        width: 50%;
-    }
-
-    .links-nav {
-        width: 40%;
-        font-size: 6px;
-        text-align: end;
-        display: flex;  
-        position: absolute;
-        
-    }
-
-    header ul {
-        display: flex;
-        gap: 20px;
-        
-        
-    }
-
-    
-    .Titulo {
-        font-family:"kanit";
-        font-style: italic;
-        font-weight: 900;
-        font-size: 30px;
-        text-align: center;
-        color: mediumblue;
-        background: #afadad;
-        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-        
-    }
-
-   
-    .img-privada {
-        width: 100%;
-        height: 200px;
-    }
-
-    .img-penal {
-        width: 100%;
-        height: 200px;
-    }
-
-    .img-familia {
-        width: 100%;
-        height: 200px;
-    }
-
-    .imagenquienesomos {
-        width: 100%;
-        height: 200px;
-    }
-
-    .links-externos {
-      gap: 30px;
-    }
-
-    .seccion-aranceles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .secciones {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        height: 1500px;
-    }
-
-    .seccion {
-        position: relative;
-    }
-
-    .seccion p {
-        font-size: 12px;
-    }
-
-    .boton-consulta {
-        position: absolute;
-        right: 30%;
-    }
-
-            
-
-    .aranceles {
-        display: inline-block;
-    }
-
-    .citas {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .formulario-mapa {
-        display: flex;  
-        flex-direction: column;
-        position: relative;
-    }
-
-    .foto-principal {
-        width: 80%;
-        height: 400px;
-        object-fit: cover;
-    }
-
-    .links-externos a {
-        font-size: 6px;
-        padding-left: 20px;
-    }
-
-
-    .boton-wsp {
-        width: 50px;
-        transition: ease 1s;
-    
-    }
-    .container-boton {
-    
-    
-        position: fixed;
-        z-index: 100;
-        border-radius: 60%;
-        bottom: 20px;
-        right: 15px;
-        transition: ease 0.3s;
-    
-    }
-
-    .imagen-whatsapp {
-        width: 30px;
-    }
-
-    .imagen-face {
-        width: 30px;
-    }
-
-    .imagen-ig {
-        width: 35px;
-    }
-
-    .imagen-gmail {
-        width: 30px;
-    }
-}
-
 @media only screen and (min-width: 426px) and (max-width: 576px) {
-
-    *{
-        margin: 0px;
-        box-sizing: 0px;
-        padding: 0px;
-    }
-
-        
-    .contenedor-header {
-        display: flex;
-        align-items:center;
-        background-color:mediumblue;
-        justify-content: space-between; 
-        position: relative;
-    }
-
-    .banner {
-        text-align: start;
-        width: 50%;
-    }
-
-    .links-nav {
-        width: 40%;
-        font-size: 6px;
-        text-align: end;
-        display: flex;  
-        position: absolute;
-        
-    }
-
-    header ul {
-        display: flex;
-        gap: 30px;
-        
-        
-    }
-
-    
-    .Titulo {
-        font-family:"kanit";
-        font-style: italic;
-        font-weight: 900;
-        font-size: 30px;
-        text-align: center;
-        color: mediumblue;
-        background: #afadad;
-        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-        
-    }
-
-    .foto-principal {
-        width: 80%;
-        height: 200px;
-    }
-
-    .img-privada {
-        width: 100%;
-        height: 200px;
-    }
-
-    .img-penal {
-        width: 100%;
-        height: 200px;
-    }
-
-    .img-familia {
-        width: 100%;
-        height: 200px;
-    }
-
-    .imagenquienesomos {
-        width: 100%;
-        height: 200px;
-    }
-
-    .seccion-aranceles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .secciones {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        height: 1500px;
-    }
-
-            
-
-    .aranceles {
-        display: inline-block;
-    }
-
-    .citas {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .formulario-mapa {
-        display: flex;  
-        flex-direction: column;
-        position: relative;
-    }
-
-    .foto-principal {
-        width: 80%;
-        height: 400px;
-    }
-
-    .links-externos a {
-        font-size: 8px;
-        padding-left: 20px;
-    }
-
-
-    .boton-wsp {
-        width: 50px;
-        transition: ease 1s;
-    
-    }
-    .container-boton {
-    
-    
-        position: fixed;
-        z-index: 100;
-        border-radius: 60%;
-        bottom: 20px;
-        right: 15px;
-        transition: ease 0.3s;
-    
-    }
+  * {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: 0px;
+  }
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .links-nav {
+    width: 40%;
+    font-size: 6px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 30px;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 200px;
+  }
+  .img-privada {
+    width: 100%;
+    height: 200px;
+  }
+  .img-penal {
+    width: 100%;
+    height: 200px;
+  }
+  .img-familia {
+    width: 100%;
+    height: 200px;
+  }
+  .imagenquienesomos {
+    width: 100%;
+    height: 200px;
+  }
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 1500px;
+  }
+  .aranceles {
+    display: inline-block;
+  }
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario-mapa {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 400px;
+  }
+  .links-externos a {
+    font-size: 8px;
+    padding-left: 20px;
+  }
+  .boton-wsp {
+    width: 50px;
+    transition: ease 1s;
+  }
+  .container-boton {
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 15px;
+    transition: ease 0.3s;
+  }
 }
-
 /* Reglas de media query*/
-
 /* tablet */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
-
-    *{
-        margin: 0px;
-        box-sizing: 0px;
-        padding: 0px;
-    }
-
-    .contenedor-header {
-        display: flex;
-        align-items:center;
-        background-color:mediumblue;
-        justify-content: space-between; 
-        position: relative;
-    }
-
-    .banner {
-        text-align: start;
-        width: 50%;
-    }
-
-    .links-nav {
-        width: 40%;
-        font-size: 9px;
-        text-align: end;
-        display: flex;  
-        position: absolute;
-        
-    }
-
-    header ul {
-        display: flex;
-        gap: 37px;
-        
-        
-    }
-
-    
-   
-
-    .Titulo {
-        font-family:"kanit";
-        font-style: italic;
-        font-weight: 900;
-        font-size: 40px;
-        text-align: center;
-        color: mediumblue;
-        background: #afadad;
-        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-        
-    }
-
-    .foto-principal {
-        width: 80%;
-        height: 200px;
-    }
-
-    .img-privada {
-        width: 100%;
-        height: 200px;
-    }
-
-    .img-penal {
-        width: 100%;
-        height: 200px;
-    }
-
-    .img-familia {
-        width: 100%;
-        height: 200px;
-    }
-
-    .imagenquienesomos {
-        width: 100%;
-        height: 200px;
-    }
-
-
-    .seccion-aranceles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .secciones {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        height: 1500px;
-    }
-
-            
-
-    .aranceles {
-        display: inline-block;
-    }
-
-    .citas {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .formulario-mapa {
-        display: flex;  
-        flex-direction: column;
-        position: relative;
-    }
-
-
-    .foto-principal {
-        width: 80%;
-        height: 400px;
-    }
-
-    .links-externos a {
-        font-size: 12px;
-        padding-left: 20px;
-    }
-
-
-    .boton-wsp {
-        width: 50px;
-        transition: ease 1s;
-    
-    }
-    .container-boton {
-    
-    
-        position: fixed;
-        z-index: 100;
-        border-radius: 60%;
-        bottom: 20px;
-        right: 15px;
-        transition: ease 0.3s;
-    
-    }
+  * {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: 0px;
+  }
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .links-nav {
+    width: 40%;
+    font-size: 9px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 37px;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 200px;
+  }
+  .img-privada {
+    width: 100%;
+    height: 200px;
+  }
+  .img-penal {
+    width: 100%;
+    height: 200px;
+  }
+  .img-familia {
+    width: 100%;
+    height: 200px;
+  }
+  .imagenquienesomos {
+    width: 100%;
+    height: 200px;
+  }
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 1500px;
+  }
+  .aranceles {
+    display: inline-block;
+  }
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario-mapa {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 400px;
+  }
+  .links-externos a {
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  .boton-wsp {
+    width: 50px;
+    transition: ease 1s;
+  }
+  .container-boton {
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 15px;
+    transition: ease 0.3s;
+  }
 }
-
 @media only screen and (min-width: 769px) and (max-width: 992px) {
-
-    *{
-        margin: 0px;
-        box-sizing: 0px;
-        padding: 0px;
-    }
-
-    .contenedor-header {
-        display: flex;
-        align-items:center;
-        background-color:mediumblue;
-        justify-content: space-between; 
-        position: relative;
-    }
-
-    .banner {
-        text-align: start;
-        width: 50%;
-    }
-
-    .links-nav {
-        width: 40%;
-        font-size: 10px;
-        text-align: end;
-        display: flex;  
-        position: absolute;
-        
-    }
-
-    header ul {
-        display: flex;
-        gap: 60px;
-        
-        
-    }
-
-    
-    .Titulo {
-        font-family:"kanit";
-        font-style: italic;
-        font-weight: 900;
-        font-size: 50px;
-        text-align: center;
-        color: mediumblue;
-        background: #afadad;
-        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-        
-    }
-
-
-    .seccion-aranceles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .secciones {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        height: 1500px;
-    }
-
-    .seccion h3 {
-        font-size: 24px;
-    }
-
-    .seccion p {
-        font-size: 20px;
-    }
-
-            
-
-    .aranceles {
-        display: inline-block;
-    }
-
-    .citas {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .foto-principal {
-        width: 80%;
-        height: 400px;
-    }
-
-    .links-externos a {
-        font-size: 14px;
-        padding-left: 20px;
-    }
-
-
-    .boton-wsp {
-        width: 50px;
-        transition: ease 1s;
-    
-    }
-    .container-boton {
-    
-    
-        position: fixed;
-        z-index: 100;
-        border-radius: 60%;
-        bottom: 20px;
-        right: 15px;
-        transition: ease 0.3s;
-    
-    }
-
+  * {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: 0px;
+  }
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .links-nav {
+    width: 40%;
+    font-size: 10px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 60px;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 1500px;
+  }
+  .seccion h3 {
+    font-size: 24px;
+  }
+  .seccion p {
+    font-size: 20px;
+  }
+  .aranceles {
+    display: inline-block;
+  }
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 400px;
+  }
+  .links-externos a {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .boton-wsp {
+    width: 50px;
+    transition: ease 1s;
+  }
+  .container-boton {
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 15px;
+    transition: ease 0.3s;
+  }
 }
-
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
-
-    *{
-        margin: 0px;
-        box-sizing: 0px;
-        padding: 0px;
-    }
-
-    .contenedor-header {
-        display: flex;
-        align-items:center;
-        background-color:mediumblue;
-        justify-content: space-between; 
-        position: relative;
-    }
-
-    .banner {
-        text-align: start;
-        width: 50%;
-    }
-
-    .links-nav {
-        width: 40%;
-        font-size: 12px;
-        text-align: end;
-        display: flex;  
-        position: absolute;
-        
-    }
-
-    header ul {
-        display: flex;
-        gap: 70px;
-        
-        
-    }
-
-    
-    .Titulo {
-        font-family:"kanit";
-        font-style: italic;
-        font-weight: 900;
-        font-size: 60px;
-        text-align: center;
-        color: mediumblue;
-        background: #afadad;
-        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-        
-    }
-
-
-    .seccion-aranceles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .secciones {
-        display: flex;
-        
-        width: 100%;
-        height:4
-        00px;
-    }
-
-    .seccion {
-       display: flex;
-       position: relative;
-    } 
-
-    .boton-consulta {
-        position: absolute;
-        right: 35%;
-    }
-
-    .seccion p {
-        font-size: 14px;
-    }
-    
-
-    .aranceles {
-        display: inline-block;
-    }
-
-    .citas {
-        padding-right: 10px;
-    }
-
-    .foto-principal {
-        width: 80%;
-        height: 400px;
-    }
-
-    .links-externos a {
-        font-size: 14px;
-        padding-left: 20px;
-    }
-
-
-    .boton-wsp {
-        width: 70px;
-        transition: ease 1s;
-    
-    }
-    .container-boton {
-    
-    
-        position: fixed;
-        z-index: 100;
-        border-radius: 60%;
-        bottom: 20px;
-        right: 15px;
-        transition: ease 0.3s;
-    
-    }
-
+  * {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: 0px;
+  }
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .links-nav {
+    width: 40%;
+    font-size: 12px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 70px;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    width: 100%;
+    height: 4 0px;
+  }
+  .seccion {
+    display: flex;
+    position: relative;
+  }
+  .boton-consulta {
+    position: absolute;
+    right: 35%;
+  }
+  .seccion p {
+    font-size: 14px;
+  }
+  .aranceles {
+    display: inline-block;
+  }
+  .citas {
+    padding-right: 10px;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 400px;
+  }
+  .links-externos a {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .boton-wsp {
+    width: 70px;
+    transition: ease 1s;
+  }
+  .container-boton {
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 15px;
+    transition: ease 0.3s;
+  }
 }
-
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
-
-    *{
-        margin: 0px;
-        box-sizing: 0px;
-        padding: 0px;
-    }
-
-    .contenedor-header {
-        display: flex;
-        align-items:center;
-        background-color:mediumblue;
-        justify-content: space-between; 
-        position: relative;
-    }
-
-    .banner {
-        text-align: start;
-        width: 50%;
-    }
-
-    .links-nav {
-        width: 40%;
-        font-size: 10px;
-        text-align: end;
-        display: flex;  
-        position: absolute;
-        
-    }
-
-    header ul {
-        display: flex;
-        gap: 60px;
-        
-        
-    }
-
-    
-    .Titulo {
-        font-family:"kanit";
-        font-style: italic;
-        font-weight: 900;
-        font-size: 50px;
-        text-align: center;
-        color: mediumblue;
-        background: #afadad;
-        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-        
-    }
-
-
-    .seccion-aranceles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .secciones {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        height: 1500px;
-    }
-
-    .seccion h3 {
-        font-size: 24px;
-    }
-
-    .seccion p {
-        font-size: 20px;
-    }
-
-            
-
-    .aranceles {
-        display: inline-block;
-    }
-
-    .citas {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .foto-principal {
-        width: 80%;
-        height: 400px;
-    }
-
-    .links-externos a {
-        font-size: 14px;
-        padding-left: 20px;
-    }
-
-
-    .boton-wsp {
-        width: 50px;
-        transition: ease 1s;
-    
-    }
-    .container-boton {
-    
-    
-        position: fixed;
-        z-index: 100;
-        border-radius: 60%;
-        bottom: 20px;
-        right: 15px;
-        transition: ease 0.3s;
-    
-    }
-
+  * {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: 0px;
+  }
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .links-nav {
+    width: 40%;
+    font-size: 10px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 60px;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 1500px;
+  }
+  .seccion h3 {
+    font-size: 24px;
+  }
+  .seccion p {
+    font-size: 20px;
+  }
+  .aranceles {
+    display: inline-block;
+  }
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 400px;
+  }
+  .links-externos a {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+  .boton-wsp {
+    width: 50px;
+    transition: ease 1s;
+  }
+  .container-boton {
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 15px;
+    transition: ease 0.3s;
+  }
 }
-
 @media only screen and (min-width: 1201px) and (max-width: 1700px) {
-
-    *{
-        margin: 0px;
-        box-sizing: 0px;
-        padding: 0px;
-    }
-
-    .contenedor-header {
-        display: flex;
-        align-items:center;
-        background-color:mediumblue;
-        justify-content: space-between; 
-        position: relative;
-    }
-
-    .banner {
-        text-align: start;
-        width: 50%;
-    }
-
-    .links-nav {
-        width: 40%;
-        font-size: 12px;
-        text-align: end;
-        display: flex;  
-        position: absolute;
-        
-    }
-
-    header ul {
-        display: flex;
-        gap: 80px;
-        
-        
-    }
-
-    
-    .Titulo {
-        font-family:"kanit";
-        font-style: italic;
-        font-weight: 900;
-        font-size: 60px;
-        text-align: center;
-        color: mediumblue;
-        background: #afadad;
-        text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-        
-    }
-
-
-    .seccion-aranceles {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .secciones {
-        display: flex;
-        width: 100%;
-        height:4
-        00px;
-    }
-
-    .seccion {
-       display: flex;
-       position: relative;
-    } 
-
-    .boton-consulta {
-        position: absolute;
-        right: 35%;
-    }
-
-    .seccion p {
-        font-size: 14px;
-    }
-    
-
-    .aranceles {
-        display: inline-block;
-    }
-
-    .citas {
-        padding-right: 10px;
-    }
-
-    .foto-principal {
-        width: 80%;
-        height: 400px;
-    }
-
-    .links-externos a {
-        font-size: 18px;
-        padding-left: 20px;
-    }
-
-
-    .boton-wsp {
-        width: 70px;
-        transition: ease 1s;
-    
-    }
-    .container-boton {
-    
-    
-        position: fixed;
-        z-index: 100;
-        border-radius: 60%;
-        bottom: 20px;
-        right: 15px;
-        transition: ease 0.3s;
-    
-    }
-}
+  * {
+    margin: 0px;
+    box-sizing: 0px;
+    padding: 0px;
+  }
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .links-nav {
+    width: 40%;
+    font-size: 12px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 80px;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    width: 100%;
+    height: 4 0px;
+  }
+  .seccion {
+    display: flex;
+    position: relative;
+  }
+  .boton-consulta {
+    position: absolute;
+    right: 35%;
+  }
+  .seccion p {
+    font-size: 14px;
+  }
+  .aranceles {
+    display: inline-block;
+  }
+  .citas {
+    padding-right: 10px;
+  }
+  .foto-principal {
+    width: 80%;
+    height: 400px;
+  }
+  .links-externos a {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .boton-wsp {
+    width: 70px;
+    transition: ease 1s;
+  }
+  .container-boton {
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 15px;
+    transition: ease 0.3s;
+  }
+}/*# sourceMappingURL=style.css.map */

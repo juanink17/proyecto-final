@@ -1,0 +1,79 @@
+
+.Redes ul {
+    list-style-type: none;
+}
+
+.imagen-whatsapp {
+    width: 50px;
+    padding-right: 40px;
+    
+    
+    
+}
+.imagen-face {
+    width: 50px;
+}
+
+.imagen-ig {
+    width: 55px;
+}
+
+.imagen-gmail {
+    display: flex;
+    width: 50px;
+    
+}
+
+
+
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 30px;
+      
+    
+}
+
+.li-redes {
+    
+    position: relative;
+    justify-content: center;
+    width: 80px;
+       
+}
+
+.li-a {
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    justify-content: center;
+    
+    
+  
+    
+}
+
+/*footer de quienes somos*/
+.footer-color {
+    background-color: #ada6a6;
+}
+
+@media only screen and (max-width: 425px) {
+    .imagen-whatsapp {
+        width: 30px;
+    }
+
+    .imagen-face {
+        width: 30px;
+    }
+
+    .imagen-ig {
+        width: 35px;
+    }
+
+    .imagen-gmail {
+        width: 30px;
+    }    
+}
+

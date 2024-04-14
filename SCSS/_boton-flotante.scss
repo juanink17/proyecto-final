@@ -1,0 +1,124 @@
+.container-boton {
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 20px;
+    right: 25px;
+    transition: ease 0.3s;
+
+}
+
+.container-boton :hover{ 
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.boton-wsp {
+    width: 80px;
+    transition: ease 1s;
+
+}
+
+@media only screen and (max-width: 425px) {
+    .boton-wsp {
+        width: 50px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+    
+    
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+    .boton-wsp {
+        width: 50px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .boton-wsp {
+        width: 50px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {    
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .boton-wsp {
+        width: 50px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .boton-wsp {
+        width: 70px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    }
+
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+    .boton-wsp {
+        width: 70px;
+        transition: ease 1s;
+    
+    }
+    .container-boton {
+        position: fixed;
+        z-index: 100;
+        border-radius: 60%;
+        bottom: 20px;
+        right: 15px;
+        transition: ease 0.3s;
+    }
+}
+
+

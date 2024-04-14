@@ -1,0 +1,81 @@
+.barralateral {
+    display: flex;
+    align-items:center;
+    background-color: mediumblue;
+    flex-direction:row;
+    position: relative;
+    justify-content: space-evenly;
+        
+}
+.links-externos {
+    gap: 80px;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 80px;
+    margin-left: -15px;
+
+    li {
+    padding-bottom: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 700;
+    }
+
+    a {
+    color: lightgray;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .links-externos {
+        gap: 30px;
+        a {
+            font-size: 6px;
+        padding-left: 20px;
+        }
+    }
+}  
+
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+    .links-externos a {
+        font-size: 8px;
+        padding-left: 20px; 
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .links-externos a {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .links-externos a {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .links-externos a {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .links-externos a {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+    .links-externos a {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+}

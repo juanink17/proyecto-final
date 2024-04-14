@@ -1,0 +1,55 @@
+.seccion-aranceles {
+    background-color: mediumblue;
+    padding-left: 20px;
+}
+
+.precios-consulta {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+
+.aranceles li {
+    margin-top: 10px;
+    padding-bottom: 40px;
+    color: rgb(193, 201, 201);
+    list-style-type: none;
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .aranceles {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+    .aranceles {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .aranceles {
+        display: inline-block;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .aranceles {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+    .aranceles {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+    .aranceles {
+        display: inline-block;
+    }
+}

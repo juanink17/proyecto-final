@@ -1,37 +1,77 @@
 .seccion-aranceles {
-    background-color: mediumblue;
+    background-color: $color-primario;
     padding-left: 20px;
 }
 
 .precios-consulta {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 30px;
+    background-color: $color-primario;
+    color: $color-secundario;
+    font-size: 32px;
 }
 
 
-.aranceles li {
-    margin-top: 10px;
-    padding-bottom: 40px;
-    color: rgb(193, 201, 201);
-    list-style-type: none;
-    
+.aranceles {
+    background-color: $color-primario;
+    ul {
+        background-color: $color-primario;
+        
+    }
+    li {
+        margin-top: 10px;
+        padding-bottom: 40px;
+        color: $color-secundario;
+        background-color: $color-primario;
+        list-style-type: none;
+        font-size: 18px;
+        
+    }
 }
-
 @media only screen and (max-width: 425px) {
+    .precios-consulta{
+        width: 80%;
+        color: $color-secundario;
+        background-color: $color-primario;
+        padding-top: 20px;
+    }
     .aranceles {
         display: inline-block;
+        background-color: $color-primario;
+        h3 {
+            font-size: 24px;
+        }
+        li {
+            font-size: 14px;
+        }
+    
+        ul {
+            background-color: $color-primario;
+        }
     }
 }
 
 @media only screen and (min-width: 426px) and (max-width: 576px) {
     .aranceles {
         display: inline-block;
+        h3 {
+            font-size: 24px;
+        }
+        li {
+            font-size: 14px;
+        }
     }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
     .aranceles {
         display: inline-block;
+        h3 {
+            font-size: 26px;
+        }
+        li {
+            font-size: 16px;
+        }
     }
 
 }
@@ -45,11 +85,24 @@
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
     .aranceles {
         display: inline-block;
+        h3 {
+            font-size: 32px;
+        }
+        li {
+            font-size: 18px;
+        }
+
     }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1700px) {
     .aranceles {
         display: inline-block;
+        h3 {
+            font-size: 32px;
+        }
+        li {
+            font-size: 18px;
+        }
     }
 }

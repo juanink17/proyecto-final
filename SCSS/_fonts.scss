@@ -1,7 +1,7 @@
 /*fonts quienes somos*/
 main .fontquien {
-    color: rgb(175, 171, 171);
-    background-color: mediumblue;
+    color: $color-secundario;
+    background-color: $color-primario;
     font-family: "Kanit";
     text-align: justify;
     font-size: 20px;
@@ -13,8 +13,8 @@ main .fontquien {
 /*fonts derecho privado*/
 
 .descripcion {
-    color: rgb(175, 171, 171);
-    background-color: mediumblue;
+    color: $color-secundario;
+    background-color: $color-primario;
     font-family: "Kanit";
     text-align: justify;
     font-size: 20px;

@@ -38,9 +38,10 @@
 
 @media only screen and (max-width: 425px) {
     .foto-principal {
-        width: 80%;
-        height: 400px;
+        width: 99%;
+        height: 200px;
         object-fit: cover;
+        margin-bottom: 20px;
     }
 
     .img-privada {
@@ -66,8 +67,9 @@
 
 @media only screen and (min-width: 426px) and (max-width: 576px) {
     .foto-principal {
-        width: 80%;
-        height: 200px;
+        width: 99%;
+        height: 300px;
+        margin-bottom: 20px;
     }
 
     .img-privada {
@@ -94,7 +96,7 @@
 @media only screen and (min-width: 577px) and (max-width: 768px) {
     .foto-principal {
         width: 80%;
-        height: 200px;
+        height: 300px;
     }
 
     .img-privada {
@@ -122,20 +124,21 @@
     .foto-principal {
         width: 80%;
         height: 400px;
+        margin-bottom: 20px;
     }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
     .foto-principal {
         width: 80%;
-        height: 400px;
+        height: 500px;
     }
 }
 
 @media only screen and (min-width: 1201px) and (max-width: 1700px) {
     .foto-principal {
         width: 80%;
-        height: 400px;
+        height: 500px;
     }
 }
 

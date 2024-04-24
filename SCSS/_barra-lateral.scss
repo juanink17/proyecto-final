@@ -1,81 +1,148 @@
 .barralateral {
     display: flex;
     align-items:center;
-    background-color: mediumblue;
+    background-color: $color-primario;
     flex-direction:row;
     position: relative;
     justify-content: space-evenly;
         
 }
 .links-externos {
+    background-color: $color-primario;
     gap: 80px;
     align-items: center;
     justify-content: space-evenly;
     list-style-type: none;
     margin-top: 80px;
     margin-left: -15px;
+    border: 0px;
+  
 
     li {
-    padding-bottom: 60px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size: 16px;
-    font-weight: 700;
+        background-color: $color-primario;
+        padding-bottom: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 700;
+        border: 0px;
     }
 
     a {
-    color: lightgray;
+        background-color: $color-primario;
+        text-decoration: none;    
+        color: $color-secundario;
     }
 }
 
 @media only screen and (max-width: 425px) {
+    .barralateral{
+        flex-direction: column-reverse;
+    }
+
     .links-externos {
-        gap: 30px;
+        display: flex;
+        flex-wrap:initial;
+        background-color: $color-primario;
+        margin-top: 10px;
+        gap: 10px;
+        padding-left: 10px;
+        li {
+            padding-bottom: 10px;
+        }
         a {
-            font-size: 6px;
-        padding-left: 20px;
+            font-size: 9px;
+        
         }
     }
 }  
 
 @media only screen and (min-width: 426px) and (max-width: 576px) {
-    .links-externos a {
-        font-size: 8px;
-        padding-left: 20px; 
+    .barralateral {
+        flex-direction: column-reverse;
     }
+    .links-externos {
+        display: flex;
+        background-color: $color-primario;
+        flex-wrap: initial;
+        margin-top: 10px;
+        gap: 5px;
+
+        li{
+            padding-bottom: 10px;
+        }
+    
+        a {
+            font-size: 9px;
+            padding-left: 20px; 
+            
+        }
+    } 
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
-    .links-externos a {
-        font-size: 12px;
-        padding-left: 20px;
+    .barralateral {
+        height: 320px;
+        margin-bottom: 10px;
+        
+    }
+    .links-externos {
+        background-color: $color-primario;
+        height: 300px;
+       margin-top: 10px;
+       margin-left: 0px;
+       padding-bottom: 0px;
+
+        li {
+            padding-bottom: 45px;
+        }
+        a {
+            font-size: 11px;
+            padding-left: 10px;
+        }
     }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
-    .links-externos a {
-        font-size: 14px;
-        padding-left: 20px;
+    .barralateral {
+        height: 420px;
+    }
+    .links-externos {
+        background-color: $color-primario;
+        height: 370px; ;
+        margin-left: 0px;
+        margin-top: 50px;
+        li {
+            padding-bottom: 55px;
+        }
+        a {
+            font-size: 14px;
+            padding-left: 10px;
+            
+        }
     }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
-    .links-externos a {
-        font-size: 14px;
-        padding-left: 20px;
+    .links-externos {
+        margin-top: 60px;
+        background-color: $color-primario;
+        a {
+            font-size: 14px;
+            padding-left: 20px;
+            
+        }
     }
 }
 
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
-    .links-externos a {
-        font-size: 14px;
-        padding-left: 20px;
-    }
-}
+
 
 @media only screen and (min-width: 1201px) and (max-width: 1700px) {
-    .links-externos a {
-        font-size: 18px;
-        padding-left: 20px;
-    }
+    .links-externos {
+        background-color: $color-primario;
+        a {
+            font-size: 18px;
+            padding-left: 20px;
+        }
+    }      
 }

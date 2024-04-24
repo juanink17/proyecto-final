@@ -1,14 +1,18 @@
 
-.Redes ul {
-    list-style-type: none;
+.Redes {
+   h4 {
+    background-color: #d8d3d3;
+    margin-top: 10px;
+   } 
+    ul {
+        list-style-type: none;
+    }
 }
-
 .imagen-whatsapp {
     width: 50px;
     padding-right: 40px;
     
-    
-    
+        
 }
 .imagen-face {
     width: 50px;
@@ -27,11 +31,13 @@
 
 
 
-footer ul {
-    display: flex;
-    justify-content: space-around;
-    margin-right: 30px;
-      
+footer {
+       
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 30px;
+    }  
     
 }
 
@@ -56,10 +62,11 @@ footer ul {
 
 /*footer de quienes somos*/
 .footer-color {
-    background-color: #ada6a6;
+    background-color: $color-secundario;
 }
 
 @media only screen and (max-width: 425px) {
+  
     .imagen-whatsapp {
         width: 30px;
     }
@@ -74,6 +81,19 @@ footer ul {
 
     .imagen-gmail {
         width: 30px;
-    }    
+    } 
+    footer {
+       
+        ul {
+            display: flex;
+            justify-content: space-around;
+            margin-right: 0px;
+            margin-left: 20px;
+        }  
+        a{
+            font-size: 13px;
+        }
+        
+    }   
 }
 

@@ -1,7 +1,7 @@
 /*mapa donde encontrarnos*/
 
 .formulario-mapa {
-    background-color: rgb(208, 214, 214);
+    background-color: $color-secundario;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     display: flex;
@@ -10,21 +10,50 @@
 
 }
 
-main .map {
-    text-align: end;
-    margin-right: 50px;
+.map {
+    text-align: center;
+    margin-right: 0px;
+    background-color: $color-primario;
+    h3 {
+        background-color: $color-primario;
+        color: $color-secundario;
+    }
    
 }
  
 
 
 .citas {
-    background-color: rgb(208, 214, 214);
+    background-color: $color-secundario;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 700;
     display: flex;
     align-items: center;
     margin-top: 10px;
+    padding-top: 10px;
+}
+
+.encontranos {
+    justify-content: center;
+}
+
+#fecha {
+    background-color: $color-terciario;
+}
+#nombre {
+    background-color: $color-terciario;
+}
+#telefono {
+    background-color: $color-terciario;
+}
+#email {
+    background-color: $color-terciario;
+}
+#consulta{
+    background-color: $color-terciario;
+}
+#select-rama {
+    background-color: $color-terciario;
 }
 
 @media only screen and (max-width: 425px) {
@@ -39,6 +68,23 @@ main .map {
         flex-direction: column;
         position: relative;
     }
+    .mapa {
+        width: 250px;
+        height: 150px;
+    }
+    .img-map {
+        width: 300px;
+        height: 200px;
+    }
+    .recorda {
+        font-size: 16px;
+    }
+    .map-privado {
+        width: 300px;
+        height: 200px;
+
+    }
+    
 }
 
 @media only screen and (min-width: 426px) and (max-width: 576px) {
@@ -53,6 +99,18 @@ main .map {
         flex-direction: column;
         position: relative;
     }
+    .mapa {
+        width: 300px;
+        height: 200px;
+    }
+    .img-map {
+        width: 300px;
+        height: 200px;
+    }
+    .recorda {
+        font-size: 16px;
+    }
+   
 }
 
 @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -67,6 +125,17 @@ main .map {
         flex-direction: column;
         position: relative;
     }
+    .mapa {
+        width: 350px;
+        height: 250px;
+    }
+    .img-map {
+        width: 300px;
+        height: 200px;
+    }
+    .recorda {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 992px) {
@@ -74,6 +143,9 @@ main .map {
         display: flex;
         flex-direction: column;
         
+    }
+    .recorda {
+        font-size: 18px;
     }
 }
 
@@ -89,4 +161,16 @@ main .map {
     .citas {
         padding-right: 10px;
     }
+    .fontquien {
+        h3 {
+            background-color: $color-primario;
+            font-size: 24px;
+        }
+        p{
+            background-color: $color-primario;
+           font-size: 20px;
+        }
+    }
+    
+   
 }

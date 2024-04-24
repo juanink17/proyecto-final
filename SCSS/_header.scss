@@ -1,7 +1,7 @@
 .contenedor-header {
     display: flex;
     align-items:center;
-    background-color:mediumblue;
+    background-color:$color-primario;
     justify-content: space-between; 
     position: relative;
     
@@ -22,23 +22,24 @@
     font-weight: 900;
     font-size: 70px;
     text-align: center;
-    color: mediumblue;
-    background: #afadad;
+    color: $color-primario;
+    background: $color-secundario;
     text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 
 @media only screen and (max-width: 425px) {
     .contenedor-header {
         display: flex;
+        flex-direction: row;
         align-items:center;
-        background-color:mediumblue;
+        background-color:$color-primario;
         justify-content: space-between; 
         position: relative;
     }
 
     .banner {
         text-align: start;
-        width: 50%;
+        width: 85%;
     }
 
    
@@ -46,10 +47,10 @@
         font-family:"kanit";
         font-style: italic;
         font-weight: 900;
-        font-size: 30px;
+        font-size: 28px;
         text-align: center;
-        color: mediumblue;
-        background: #afadad;
+        color: $color-primario;
+        background: $color-secundario;
         text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
         
     }
@@ -59,14 +60,14 @@
     .contenedor-header {
         display: flex;
         align-items:center;
-        background-color:mediumblue;
+        background-color:$color-primario;
         justify-content: space-between; 
         position: relative;
     }
 
     .banner {
         text-align: start;
-        width: 50%;
+        width: 90%;
     }
 
         
@@ -76,8 +77,8 @@
         font-weight: 900;
         font-size: 30px;
         text-align: center;
-        color: mediumblue;
-        background: #afadad;
+        color: $color-primario;
+        background: $color-secundario;
         text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
         
     }
@@ -87,7 +88,7 @@
     .contenedor-header {
         display: flex;
         align-items:center;
-        background-color:mediumblue;
+        background-color:$color-primario;
         justify-content: space-between; 
         position: relative;
     }
@@ -103,8 +104,8 @@
         font-weight: 900;
         font-size: 40px;
         text-align: center;
-        color: mediumblue;
-        background: #afadad;
+        color: $color-primario;
+        background: $color-secundario;
         text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
         
     }
@@ -114,7 +115,7 @@
     .contenedor-header {
         display: flex;
         align-items:center;
-        background-color:mediumblue;
+        background-color:$color-primario;
         justify-content: space-between; 
         position: relative;
     }
@@ -130,8 +131,8 @@
         font-weight: 900;
         font-size: 50px;
         text-align: center;
-        color: mediumblue;
-        background: #afadad;
+        color: $color-primario;
+        background: $color-secundario;
         text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
         
     }
@@ -141,7 +142,7 @@
     .contenedor-header {
         display: flex;
         align-items:center;
-        background-color:mediumblue;
+        background-color:$color-primario;
         justify-content: space-between; 
         position: relative;
     }
@@ -157,8 +158,8 @@
         font-weight: 900;
         font-size: 60px;
         text-align: center;
-        color: mediumblue;
-        background: #afadad;
+        color: $color-primario;
+        background: $color-secundario;
         text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
         
     }
@@ -168,7 +169,7 @@
     .contenedor-header {
         display: flex;
         align-items:center;
-        background-color:mediumblue;
+        background-color:$color-primario;
         justify-content: space-between; 
         position: relative;
     }
@@ -184,8 +185,8 @@
         font-weight: 900;
         font-size: 50px;
         text-align: center;
-        color: mediumblue;
-        background: #afadad;
+        color: $color-primario;
+        background: $color-secundario;
         text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
         
     }
@@ -196,7 +197,7 @@
     .contenedor-header {
         display: flex;
         align-items:center;
-        background-color:mediumblue;
+        background-color:$color-primario;
         justify-content: space-between; 
         position: relative;
     }
@@ -212,8 +213,8 @@
         font-weight: 900;
         font-size: 60px;
         text-align: center;
-        color: mediumblue;
-        background: #afadad;
+        color: $color-primario;
+        background: $color-secundario;
         text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
         
     }

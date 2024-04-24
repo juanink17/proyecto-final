@@ -3,40 +3,11 @@
   margin: 0px;
   box-sizing: 0px;
   padding: 0px;
+  background-color: #c9c9c9;
 }
 
-html {
-  background-color: rgb(201, 201, 201);
-}
-
-.links-nav {
-  text-align: end;
-  list-style-type: none;
-  right: 8%;
-  position: absolute;
-}
-
-header ul {
-  list-style-type: none;
-  display: flex;
-  gap: 80px;
-}
-
-header a {
-  text-decoration: none;
-  color: #ada6a6;
-}
-
-.unlist :active {
-  color: rgb(152, 152, 152);
-}
-
-.unlist :visited {
-  color: rgb(255, 255, 255);
-}
-
-.unlist :hover {
-  color: rgb(25, 236, 247);
+main {
+  background-color: mediumblue;
 }
 
 .contenedor-header {
@@ -63,6 +34,341 @@ header a {
   text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
 }
 
+@media only screen and (max-width: 425px) {
+  .contenedor-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 85%;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 90%;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+  .contenedor-header {
+    display: flex;
+    align-items: center;
+    background-color: mediumblue;
+    justify-content: space-between;
+    position: relative;
+  }
+  .banner {
+    text-align: start;
+    width: 50%;
+  }
+  .Titulo {
+    font-family: "kanit";
+    font-style: italic;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+    color: mediumblue;
+    background: #afadad;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  }
+}
+.links-nav {
+  background-color: mediumblue;
+  text-align: end;
+  list-style-type: none;
+  right: 8%;
+  position: absolute;
+}
+
+header ul {
+  background-color: mediumblue;
+  list-style-type: none;
+  display: flex;
+  gap: 80px;
+}
+header ul li {
+  background-color: mediumblue;
+}
+header ul a {
+  text-decoration: none;
+  background-color: mediumblue;
+  color: #ada6a6;
+}
+
+.unlist :active {
+  color: rgb(152, 152, 152);
+}
+
+.unlist :visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.unlist :hover {
+  color: rgb(25, 236, 247);
+}
+
+.icono-menu {
+  display: none;
+  color: rgb(152, 152, 152);
+  font-size: 24px;
+  background-color: mediumblue;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 425px) {
+  .links-nav {
+    width: 150px;
+    height: 100vh;
+    font-size: 9px;
+    background-color: mediumblue;
+    display: flex;
+    text-align: end;
+    display: block;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: solid 2px;
+    border-color: #ada6a6;
+    right: 200vh;
+    top: 0vh;
+    border-radius: 5px;
+  }
+  .icono-menu {
+    font-size: 28px;
+    display: block;
+    position: absolute;
+    right: 2px;
+  }
+  .icono-menu:hover + .links-nav {
+    right: 0px;
+  }
+  .links-nav:hover {
+    right: 0px;
+  }
+  header ul {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    color: mediumblue;
+    padding-top: 40px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+  .links-nav {
+    width: 150px;
+    height: 100vh;
+    font-size: 9px;
+    background-color: mediumblue;
+    display: flex;
+    text-align: end;
+    display: block;
+    z-index: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: solid 2px;
+    border-color: #ada6a6;
+    right: 200vh;
+    top: 0vh;
+    border-radius: 5px;
+  }
+  .icono-menu {
+    display: block;
+    font-size: 32px;
+  }
+  .icono-menu:hover + .links-nav {
+    right: 0px;
+  }
+  .links-nav:hover {
+    right: 0px;
+  }
+  header ul {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+    color: mediumblue;
+    padding-top: 40px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .links-nav {
+    width: 37%;
+    font-size: 8px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 37px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .links-nav {
+    width: 38%;
+    font-size: 9px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 60px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .links-nav {
+    width: 34%;
+    font-size: 10px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 60px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+  .links-nav {
+    width: 35%;
+    font-size: 12px;
+    text-align: end;
+    display: flex;
+    position: absolute;
+  }
+  header ul {
+    display: flex;
+    gap: 80px;
+    justify-content: space-evenly;
+  }
+}
 .barralateral {
   display: flex;
   align-items: center;
@@ -73,24 +379,125 @@ header a {
 }
 
 .links-externos {
+  background-color: mediumblue;
   gap: 80px;
   align-items: center;
   justify-content: space-evenly;
   list-style-type: none;
   margin-top: 80px;
   margin-left: -15px;
+  border: 0px;
 }
 .links-externos li {
+  background-color: mediumblue;
   padding-bottom: 60px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-size: 16px;
   font-weight: 700;
+  border: 0px;
 }
 .links-externos a {
-  color: lightgray;
+  background-color: mediumblue;
+  text-decoration: none;
+  color: #c9c9c9;
 }
 
+@media only screen and (max-width: 425px) {
+  .barralateral {
+    flex-direction: column-reverse;
+  }
+  .links-externos {
+    display: flex;
+    flex-wrap: initial;
+    background-color: mediumblue;
+    margin-top: 10px;
+    gap: 10px;
+    padding-left: 10px;
+  }
+  .links-externos li {
+    padding-bottom: 10px;
+  }
+  .links-externos a {
+    font-size: 9px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+  .barralateral {
+    flex-direction: column-reverse;
+  }
+  .links-externos {
+    display: flex;
+    background-color: mediumblue;
+    flex-wrap: initial;
+    margin-top: 10px;
+    gap: 5px;
+  }
+  .links-externos li {
+    padding-bottom: 10px;
+  }
+  .links-externos a {
+    font-size: 9px;
+    padding-left: 20px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .barralateral {
+    height: 320px;
+    margin-bottom: 10px;
+  }
+  .links-externos {
+    background-color: mediumblue;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+  }
+  .links-externos li {
+    padding-bottom: 45px;
+  }
+  .links-externos a {
+    font-size: 11px;
+    padding-left: 10px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .barralateral {
+    height: 420px;
+  }
+  .links-externos {
+    background-color: mediumblue;
+    height: 370px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .links-externos li {
+    padding-bottom: 55px;
+  }
+  .links-externos a {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .links-externos {
+    margin-top: 60px;
+    background-color: mediumblue;
+  }
+  .links-externos a {
+    font-size: 14px;
+    padding-left: 20px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+  .links-externos {
+    background-color: mediumblue;
+  }
+  .links-externos a {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+}
 /*imagen principal archivo index*/
 .foto-principal {
   text-align: start;
@@ -132,6 +539,95 @@ header a {
      object-fit: cover;
 }
 
+@media only screen and (max-width: 425px) {
+  .foto-principal {
+    width: 99%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .img-privada {
+    width: 100%;
+    height: 200px;
+  }
+  .img-penal {
+    width: 100%;
+    height: 200px;
+  }
+  .img-familia {
+    width: 100%;
+    height: 200px;
+  }
+  .imagenquienesomos {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+  .foto-principal {
+    width: 99%;
+    height: 300px;
+    margin-bottom: 20px;
+  }
+  .img-privada {
+    width: 100%;
+    height: 200px;
+  }
+  .img-penal {
+    width: 100%;
+    height: 200px;
+  }
+  .img-familia {
+    width: 100%;
+    height: 200px;
+  }
+  .imagenquienesomos {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .foto-principal {
+    width: 80%;
+    height: 300px;
+  }
+  .img-privada {
+    width: 100%;
+    height: 200px;
+  }
+  .img-penal {
+    width: 100%;
+    height: 200px;
+  }
+  .img-familia {
+    width: 100%;
+    height: 200px;
+  }
+  .imagenquienesomos {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .foto-principal {
+    width: 80%;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .foto-principal {
+    width: 80%;
+    height: 500px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+  .foto-principal {
+    width: 80%;
+    height: 500px;
+  }
+}
 /*fonts quienes somos*/
 main .fontquien {
   color: rgb(175, 171, 171);
@@ -158,10 +654,17 @@ main .fontquien {
 .secciones {
   display: flex;
   width: 100%;
-  height: 400px;
+  height: 600px;
+  background-color: mediumblue;
+  margin-top: 10px;
+}
+.secciones p {
+  text-align: justify;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .seccion {
+  width: 30%;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -170,7 +673,7 @@ main .fontquien {
   margin-right: 10px;
   margin-left: 10px;
   margin-block-start: 10px;
-  background-color: rgb(204, 204, 205);
+  background-color: #c9c9c9;
   border-radius: 10px;
   overflow-y: hidden;
   padding-bottom: 500px;
@@ -179,8 +682,8 @@ main .fontquien {
 .boton-consulta {
   width: 100px;
   height: 40px;
-  color: #c2bfbf;
-  background-color: rgb(39, 39, 238);
+  color: #c9c9c9;
+  background-color: mediumblue;
   display: inline-block;
   font-size: 14px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -199,31 +702,375 @@ main .fontquien {
   bottom: 20%;
 }
 
-.secciones p {
-  text-align: justify;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+/*quienes somos*/
+.fontquien h3 {
+  background-color: mediumblue;
+  font-size: 32px;
+}
+.fontquien p {
+  background-color: mediumblue;
+  font-size: 28px;
 }
 
+/*consulta-privada*/
+.descripcion {
+  background-color: mediumblue;
+}
+.descripcion h3 {
+  background-color: mediumblue;
+  font-size: 28px;
+}
+.descripcion p {
+  background-color: mediumblue;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 425px) {
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    justify-content: center;
+    align-content: center;
+    height: 1600px;
+  }
+  .seccion {
+    width: 80%;
+    height: 30%;
+    position: relative;
+  }
+  .seccion p {
+    font-size: 14px;
+  }
+  /*quienes somos*/
+  .fontquien h3 {
+    background-color: mediumblue;
+    font-size: 18px;
+  }
+  .fontquien p {
+    background-color: mediumblue;
+    font-size: 14px;
+  }
+  .descripcion {
+    background-color: mediumblue;
+  }
+  .descripcion h3 {
+    background-color: mediumblue;
+    font-size: 18px;
+  }
+  .descripcion p {
+    background-color: mediumblue;
+    font-size: 14px;
+  }
+  .boton-consulta {
+    position: absolute;
+    right: 30%;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    height: 1600px;
+  }
+  .seccion {
+    width: 89%;
+    height: 30%;
+  }
+  .fontquien h3 {
+    background-color: mediumblue;
+    font-size: 18px;
+  }
+  .fontquien p {
+    background-color: mediumblue;
+    font-size: 14px;
+  }
+  .descripcion {
+    background-color: mediumblue;
+  }
+  .descripcion h3 {
+    background-color: mediumblue;
+    font-size: 20px;
+  }
+  .descripcion p {
+    background-color: mediumblue;
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 1600px;
+  }
+  .seccion {
+    width: 92%;
+  }
+  .fontquien h3 {
+    background-color: mediumblue;
+    font-size: 20px;
+  }
+  .fontquien p {
+    background-color: mediumblue;
+    font-size: 16px;
+  }
+  .descripcion {
+    background-color: mediumblue;
+  }
+  .descripcion h3 {
+    background-color: mediumblue;
+    font-size: 22px;
+  }
+  .descripcion p {
+    background-color: mediumblue;
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    height: 1600px;
+  }
+  .seccion {
+    width: 93%;
+  }
+  .seccion h3 {
+    font-size: 28px;
+  }
+  .seccion .seccion p {
+    font-size: 24px;
+  }
+  .fontquien h3 {
+    background-color: mediumblue;
+    font-size: 22px;
+  }
+  .fontquien p {
+    background-color: mediumblue;
+    font-size: 18px;
+  }
+  .descripcion {
+    background-color: mediumblue;
+  }
+  .descripcion h3 {
+    background-color: mediumblue;
+    font-size: 24px;
+  }
+  .descripcion p {
+    background-color: mediumblue;
+    font-size: 20px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-content: center;
+  }
+  .seccion {
+    width: 30%;
+  }
+  .seccion h3 {
+    font-size: 24px;
+  }
+  .seccion p {
+    font-size: 14px;
+  }
+  .fontquien h3 {
+    background-color: mediumblue;
+    font-size: 24px;
+  }
+  .fontquien p {
+    background-color: mediumblue;
+    font-size: 20px;
+  }
+  .descripcion {
+    background-color: mediumblue;
+  }
+  .descripcion h3 {
+    background-color: mediumblue;
+    font-size: 24px;
+  }
+  .descripcion p {
+    background-color: mediumblue;
+    font-size: 20px;
+  }
+  .boton-consulta {
+    position: absolute;
+    right: 30%;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+  .seccion-aranceles {
+    display: flex;
+    flex-direction: column;
+  }
+  .secciones {
+    display: flex;
+    width: 100%;
+    height: 4 0px;
+  }
+  .seccion {
+    display: flex;
+    position: relative;
+  }
+  .seccion h3 {
+    font-size: 24px;
+  }
+  .seccion p {
+    font-size: 16px;
+  }
+  .fontquien h3 {
+    background-color: mediumblue;
+    font-size: 28px;
+  }
+  .fontquien p {
+    background-color: mediumblue;
+    font-size: 24px;
+  }
+  .descripcion {
+    background-color: mediumblue;
+  }
+  .descripcion h3 {
+    background-color: mediumblue;
+    font-size: 26px;
+  }
+  .descripcion p {
+    background-color: mediumblue;
+    font-size: 22px;
+  }
+  .boton-consulta {
+    position: absolute;
+    right: 35%;
+  }
+}
 .seccion-aranceles {
   background-color: mediumblue;
   padding-left: 20px;
 }
 
 .precios-consulta {
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 30px;
+  background-color: mediumblue;
+  color: #cccccd;
+  font-size: 32px;
 }
 
+.aranceles {
+  background-color: mediumblue;
+}
+.aranceles ul {
+  background-color: mediumblue;
+}
 .aranceles li {
   margin-top: 10px;
   padding-bottom: 40px;
-  color: rgb(193, 201, 201);
+  color: #cccccd;
+  background-color: mediumblue;
   list-style-type: none;
+  font-size: 18px;
 }
 
+@media only screen and (max-width: 425px) {
+  .precios-consulta {
+    width: 80%;
+    color: #cccccd;
+    background-color: mediumblue;
+    padding-top: 20px;
+  }
+  .aranceles {
+    display: inline-block;
+    background-color: mediumblue;
+  }
+  .aranceles h3 {
+    font-size: 24px;
+  }
+  .aranceles li {
+    font-size: 14px;
+  }
+  .aranceles ul {
+    background-color: mediumblue;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+  .aranceles {
+    display: inline-block;
+  }
+  .aranceles h3 {
+    font-size: 24px;
+  }
+  .aranceles li {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .aranceles {
+    display: inline-block;
+  }
+  .aranceles h3 {
+    font-size: 26px;
+  }
+  .aranceles li {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .aranceles {
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .aranceles {
+    display: inline-block;
+  }
+  .aranceles h3 {
+    font-size: 32px;
+  }
+  .aranceles li {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+  .aranceles {
+    display: inline-block;
+  }
+  .aranceles h3 {
+    font-size: 32px;
+  }
+  .aranceles li {
+    font-size: 18px;
+  }
+}
 /*mapa donde encontrarnos*/
 .formulario-mapa {
-  background-color: rgb(208, 214, 214);
+  background-color: #c9c9c9;
   font-family: "Courier New", Courier, monospace;
   font-weight: 700;
   display: flex;
@@ -231,20 +1078,157 @@ main .fontquien {
   padding: 30px 20px;
 }
 
-main .map {
-  text-align: end;
-  margin-right: 50px;
+.map {
+  text-align: center;
+  margin-right: 0px;
+  background-color: mediumblue;
+}
+.map h3 {
+  background-color: mediumblue;
+  color: #c9c9c9;
 }
 
 .citas {
-  background-color: rgb(208, 214, 214);
+  background-color: #c9c9c9;
   font-family: "Courier New", Courier, monospace;
   font-weight: 700;
   display: flex;
   align-items: center;
   margin-top: 10px;
+  padding-top: 10px;
 }
 
+.encontranos {
+  justify-content: center;
+}
+
+#fecha {
+  background-color: white;
+}
+
+#nombre {
+  background-color: white;
+}
+
+#telefono {
+  background-color: white;
+}
+
+#email {
+  background-color: white;
+}
+
+#consulta {
+  background-color: white;
+}
+
+#select-rama {
+  background-color: white;
+}
+
+@media only screen and (max-width: 425px) {
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario-mapa {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .mapa {
+    width: 250px;
+    height: 150px;
+  }
+  .img-map {
+    width: 300px;
+    height: 200px;
+  }
+  .recorda {
+    font-size: 16px;
+  }
+  .map-privado {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 576px) {
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario-mapa {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .mapa {
+    width: 300px;
+    height: 200px;
+  }
+  .img-map {
+    width: 300px;
+    height: 200px;
+  }
+  .recorda {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario-mapa {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .mapa {
+    width: 350px;
+    height: 250px;
+  }
+  .img-map {
+    width: 300px;
+    height: 200px;
+  }
+  .recorda {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+  .citas {
+    display: flex;
+    flex-direction: column;
+  }
+  .recorda {
+    font-size: 18px;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .citas {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1700px) {
+  .citas {
+    padding-right: 10px;
+  }
+  .fontquien h3 {
+    background-color: mediumblue;
+    font-size: 24px;
+  }
+  .fontquien p {
+    background-color: mediumblue;
+    font-size: 20px;
+  }
+}
+.Redes h4 {
+  background-color: #d8d3d3;
+  margin-top: 10px;
+}
 .Redes ul {
   list-style-type: none;
 }
@@ -288,141 +1272,10 @@ footer ul {
 
 /*footer de quienes somos*/
 .footer-color {
-  background-color: #ada6a6;
+  background-color: #d8d3d3;
 }
 
-.container-boton {
-  position: fixed;
-  z-index: 100;
-  border-radius: 60%;
-  bottom: 20px;
-  right: 25px;
-  transition: ease 0.3s;
-}
-
-.container-boton :hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.boton-wsp {
-  width: 80px;
-  transition: ease 1s;
-}
-
-/* Reglas de media query*/
-/* celular*/
 @media only screen and (max-width: 425px) {
-  * {
-    margin: 0px;
-    box-sizing: 0px;
-    padding: 0px;
-  }
-  .contenedor-header {
-    display: flex;
-    align-items: center;
-    background-color: mediumblue;
-    justify-content: space-between;
-    position: relative;
-  }
-  .banner {
-    text-align: start;
-    width: 50%;
-  }
-  .links-nav {
-    width: 40%;
-    font-size: 6px;
-    text-align: end;
-    display: flex;
-    position: absolute;
-  }
-  header ul {
-    display: flex;
-    gap: 20px;
-  }
-  .Titulo {
-    font-family: "kanit";
-    font-style: italic;
-    font-weight: 900;
-    font-size: 30px;
-    text-align: center;
-    color: mediumblue;
-    background: #afadad;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  .img-privada {
-    width: 100%;
-    height: 200px;
-  }
-  .img-penal {
-    width: 100%;
-    height: 200px;
-  }
-  .img-familia {
-    width: 100%;
-    height: 200px;
-  }
-  .imagenquienesomos {
-    width: 100%;
-    height: 200px;
-  }
-  .links-externos {
-    gap: 30px;
-  }
-  .seccion-aranceles {
-    display: flex;
-    flex-direction: column;
-  }
-  .secciones {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 1500px;
-  }
-  .seccion {
-    position: relative;
-  }
-  .seccion p {
-    font-size: 12px;
-  }
-  .boton-consulta {
-    position: absolute;
-    right: 30%;
-  }
-  .aranceles {
-    display: inline-block;
-  }
-  .citas {
-    display: flex;
-    flex-direction: column;
-  }
-  .formulario-mapa {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 400px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .links-externos a {
-    font-size: 6px;
-    padding-left: 20px;
-  }
-  .boton-wsp {
-    width: 50px;
-    transition: ease 1s;
-  }
-  .container-boton {
-    position: fixed;
-    z-index: 100;
-    border-radius: 60%;
-    bottom: 20px;
-    right: 15px;
-    transition: ease 0.3s;
-  }
   .imagen-whatsapp {
     width: 30px;
   }
@@ -435,95 +1288,59 @@ footer ul {
   .imagen-gmail {
     width: 30px;
   }
+  footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px;
+    margin-left: 20px;
+  }
+  footer a {
+    font-size: 13px;
+  }
+}
+.container-boton {
+  position: fixed;
+  z-index: 10;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 10px;
+  transition: ease 0.3s;
+}
+.container-boton a {
+  border: solid white 1px;
+  border-radius: 60%;
+  background-color: white;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.container-boton :hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+.boton-wsp {
+  width: 100px;
+  transition: ease 1s;
+  border-radius: 50%;
+  right: -50px;
+}
+
+@media only screen and (max-width: 425px) {
+  .boton-wsp {
+    width: 50px;
+    transition: ease 1s;
+  }
+  .container-boton {
+    position: fixed;
+    z-index: 100;
+    border-radius: 60%;
+    bottom: 80px;
+    right: 15px;
+    transition: ease 0.3s;
+  }
 }
 @media only screen and (min-width: 426px) and (max-width: 576px) {
-  * {
-    margin: 0px;
-    box-sizing: 0px;
-    padding: 0px;
-  }
-  .contenedor-header {
-    display: flex;
-    align-items: center;
-    background-color: mediumblue;
-    justify-content: space-between;
-    position: relative;
-  }
-  .banner {
-    text-align: start;
-    width: 50%;
-  }
-  .links-nav {
-    width: 40%;
-    font-size: 6px;
-    text-align: end;
-    display: flex;
-    position: absolute;
-  }
-  header ul {
-    display: flex;
-    gap: 30px;
-  }
-  .Titulo {
-    font-family: "kanit";
-    font-style: italic;
-    font-weight: 900;
-    font-size: 30px;
-    text-align: center;
-    color: mediumblue;
-    background: #afadad;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 200px;
-  }
-  .img-privada {
-    width: 100%;
-    height: 200px;
-  }
-  .img-penal {
-    width: 100%;
-    height: 200px;
-  }
-  .img-familia {
-    width: 100%;
-    height: 200px;
-  }
-  .imagenquienesomos {
-    width: 100%;
-    height: 200px;
-  }
-  .seccion-aranceles {
-    display: flex;
-    flex-direction: column;
-  }
-  .secciones {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 1500px;
-  }
-  .aranceles {
-    display: inline-block;
-  }
-  .citas {
-    display: flex;
-    flex-direction: column;
-  }
-  .formulario-mapa {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 400px;
-  }
-  .links-externos a {
-    font-size: 8px;
-    padding-left: 20px;
-  }
   .boton-wsp {
     width: 50px;
     transition: ease 1s;
@@ -537,96 +1354,7 @@ footer ul {
     transition: ease 0.3s;
   }
 }
-/* Reglas de media query*/
-/* tablet */
 @media only screen and (min-width: 577px) and (max-width: 768px) {
-  * {
-    margin: 0px;
-    box-sizing: 0px;
-    padding: 0px;
-  }
-  .contenedor-header {
-    display: flex;
-    align-items: center;
-    background-color: mediumblue;
-    justify-content: space-between;
-    position: relative;
-  }
-  .banner {
-    text-align: start;
-    width: 50%;
-  }
-  .links-nav {
-    width: 40%;
-    font-size: 9px;
-    text-align: end;
-    display: flex;
-    position: absolute;
-  }
-  header ul {
-    display: flex;
-    gap: 37px;
-  }
-  .Titulo {
-    font-family: "kanit";
-    font-style: italic;
-    font-weight: 900;
-    font-size: 40px;
-    text-align: center;
-    color: mediumblue;
-    background: #afadad;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 200px;
-  }
-  .img-privada {
-    width: 100%;
-    height: 200px;
-  }
-  .img-penal {
-    width: 100%;
-    height: 200px;
-  }
-  .img-familia {
-    width: 100%;
-    height: 200px;
-  }
-  .imagenquienesomos {
-    width: 100%;
-    height: 200px;
-  }
-  .seccion-aranceles {
-    display: flex;
-    flex-direction: column;
-  }
-  .secciones {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 1500px;
-  }
-  .aranceles {
-    display: inline-block;
-  }
-  .citas {
-    display: flex;
-    flex-direction: column;
-  }
-  .formulario-mapa {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 400px;
-  }
-  .links-externos a {
-    font-size: 12px;
-    padding-left: 20px;
-  }
   .boton-wsp {
     width: 50px;
     transition: ease 1s;
@@ -641,74 +1369,6 @@ footer ul {
   }
 }
 @media only screen and (min-width: 769px) and (max-width: 992px) {
-  * {
-    margin: 0px;
-    box-sizing: 0px;
-    padding: 0px;
-  }
-  .contenedor-header {
-    display: flex;
-    align-items: center;
-    background-color: mediumblue;
-    justify-content: space-between;
-    position: relative;
-  }
-  .banner {
-    text-align: start;
-    width: 50%;
-  }
-  .links-nav {
-    width: 40%;
-    font-size: 10px;
-    text-align: end;
-    display: flex;
-    position: absolute;
-  }
-  header ul {
-    display: flex;
-    gap: 60px;
-  }
-  .Titulo {
-    font-family: "kanit";
-    font-style: italic;
-    font-weight: 900;
-    font-size: 50px;
-    text-align: center;
-    color: mediumblue;
-    background: #afadad;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  .seccion-aranceles {
-    display: flex;
-    flex-direction: column;
-  }
-  .secciones {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 1500px;
-  }
-  .seccion h3 {
-    font-size: 24px;
-  }
-  .seccion p {
-    font-size: 20px;
-  }
-  .aranceles {
-    display: inline-block;
-  }
-  .citas {
-    display: flex;
-    flex-direction: column;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 400px;
-  }
-  .links-externos a {
-    font-size: 14px;
-    padding-left: 20px;
-  }
   .boton-wsp {
     width: 50px;
     transition: ease 1s;
@@ -723,77 +1383,6 @@ footer ul {
   }
 }
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
-  * {
-    margin: 0px;
-    box-sizing: 0px;
-    padding: 0px;
-  }
-  .contenedor-header {
-    display: flex;
-    align-items: center;
-    background-color: mediumblue;
-    justify-content: space-between;
-    position: relative;
-  }
-  .banner {
-    text-align: start;
-    width: 50%;
-  }
-  .links-nav {
-    width: 40%;
-    font-size: 12px;
-    text-align: end;
-    display: flex;
-    position: absolute;
-  }
-  header ul {
-    display: flex;
-    gap: 70px;
-  }
-  .Titulo {
-    font-family: "kanit";
-    font-style: italic;
-    font-weight: 900;
-    font-size: 60px;
-    text-align: center;
-    color: mediumblue;
-    background: #afadad;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  .seccion-aranceles {
-    display: flex;
-    flex-direction: column;
-  }
-  .secciones {
-    display: flex;
-    width: 100%;
-    height: 4 0px;
-  }
-  .seccion {
-    display: flex;
-    position: relative;
-  }
-  .boton-consulta {
-    position: absolute;
-    right: 35%;
-  }
-  .seccion p {
-    font-size: 14px;
-  }
-  .aranceles {
-    display: inline-block;
-  }
-  .citas {
-    padding-right: 10px;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 400px;
-  }
-  .links-externos a {
-    font-size: 14px;
-    padding-left: 20px;
-  }
   .boton-wsp {
     width: 70px;
     transition: ease 1s;
@@ -807,160 +1396,7 @@ footer ul {
     transition: ease 0.3s;
   }
 }
-@media only screen and (min-width: 993px) and (max-width: 1200px) {
-  * {
-    margin: 0px;
-    box-sizing: 0px;
-    padding: 0px;
-  }
-  .contenedor-header {
-    display: flex;
-    align-items: center;
-    background-color: mediumblue;
-    justify-content: space-between;
-    position: relative;
-  }
-  .banner {
-    text-align: start;
-    width: 50%;
-  }
-  .links-nav {
-    width: 40%;
-    font-size: 10px;
-    text-align: end;
-    display: flex;
-    position: absolute;
-  }
-  header ul {
-    display: flex;
-    gap: 60px;
-  }
-  .Titulo {
-    font-family: "kanit";
-    font-style: italic;
-    font-weight: 900;
-    font-size: 50px;
-    text-align: center;
-    color: mediumblue;
-    background: #afadad;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  .seccion-aranceles {
-    display: flex;
-    flex-direction: column;
-  }
-  .secciones {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 1500px;
-  }
-  .seccion h3 {
-    font-size: 24px;
-  }
-  .seccion p {
-    font-size: 20px;
-  }
-  .aranceles {
-    display: inline-block;
-  }
-  .citas {
-    display: flex;
-    flex-direction: column;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 400px;
-  }
-  .links-externos a {
-    font-size: 14px;
-    padding-left: 20px;
-  }
-  .boton-wsp {
-    width: 50px;
-    transition: ease 1s;
-  }
-  .container-boton {
-    position: fixed;
-    z-index: 100;
-    border-radius: 60%;
-    bottom: 20px;
-    right: 15px;
-    transition: ease 0.3s;
-  }
-}
 @media only screen and (min-width: 1201px) and (max-width: 1700px) {
-  * {
-    margin: 0px;
-    box-sizing: 0px;
-    padding: 0px;
-  }
-  .contenedor-header {
-    display: flex;
-    align-items: center;
-    background-color: mediumblue;
-    justify-content: space-between;
-    position: relative;
-  }
-  .banner {
-    text-align: start;
-    width: 50%;
-  }
-  .links-nav {
-    width: 40%;
-    font-size: 12px;
-    text-align: end;
-    display: flex;
-    position: absolute;
-  }
-  header ul {
-    display: flex;
-    gap: 80px;
-  }
-  .Titulo {
-    font-family: "kanit";
-    font-style: italic;
-    font-weight: 900;
-    font-size: 60px;
-    text-align: center;
-    color: mediumblue;
-    background: #afadad;
-    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
-  }
-  .seccion-aranceles {
-    display: flex;
-    flex-direction: column;
-  }
-  .secciones {
-    display: flex;
-    width: 100%;
-    height: 4 0px;
-  }
-  .seccion {
-    display: flex;
-    position: relative;
-  }
-  .boton-consulta {
-    position: absolute;
-    right: 35%;
-  }
-  .seccion p {
-    font-size: 14px;
-  }
-  .aranceles {
-    display: inline-block;
-  }
-  .citas {
-    padding-right: 10px;
-  }
-  .foto-principal {
-    width: 80%;
-    height: 400px;
-  }
-  .links-externos a {
-    font-size: 18px;
-    padding-left: 20px;
-  }
   .boton-wsp {
     width: 70px;
     transition: ease 1s;

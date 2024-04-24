@@ -1,10 +1,20 @@
 .container-boton {
+        
     position: fixed;
-    z-index: 100;
-    border-radius: 60%;
+    z-index: 10;
+    border-radius: 50%;
     bottom: 20px;
-    right: 25px;
+    right: 10px;
     transition: ease 0.3s;
+    a {
+        border: solid $color-terciario 1px;
+        border-radius: 60%;
+        
+        background-color: $color-terciario;
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
 
 }
 
@@ -15,8 +25,10 @@
 }
 
 .boton-wsp {
-    width: 80px;
+    width: 100px;
     transition: ease 1s;
+    border-radius: 50%;
+    right: -50px;
 
 }
 
@@ -27,12 +39,11 @@
     
     }
     .container-boton {
-    
-    
+        
         position: fixed;
         z-index: 100;
         border-radius: 60%;
-        bottom: 20px;
+        bottom: 80px;
         right: 15px;
         transition: ease 0.3s;
     

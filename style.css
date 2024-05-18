@@ -1088,6 +1088,34 @@ main .fontquien {
   color: #c9c9c9;
 }
 
+.form-index {
+  width: 320px;
+  padding: 10px;
+  background-color: mediumblue;
+  border-radius: 5px;
+}
+
+.form-fam {
+  width: 320px;
+  padding: 10px;
+  background-color: mediumblue;
+  border-radius: 5px;
+}
+
+.form-pen {
+  width: 320px;
+  padding: 10px;
+  background-color: mediumblue;
+  border-radius: 5px;
+}
+
+.form-priv {
+  width: 320px;
+  padding: 10px;
+  background-color: mediumblue;
+  border-radius: 5px;
+}
+
 .citas {
   background-color: #c9c9c9;
   font-family: "Courier New", Courier, monospace;
@@ -1104,26 +1132,44 @@ main .fontquien {
 
 #fecha {
   background-color: white;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 2px;
 }
 
 #nombre {
   background-color: white;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 2px;
 }
 
 #telefono {
   background-color: white;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 2px;
 }
 
 #email {
   background-color: white;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 2px;
 }
 
 #consulta {
   background-color: white;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 2px;
 }
 
 #select-rama {
   background-color: white;
+  border-style: solid;
+  border-color: #c9c9c9;
+  border-width: 2px;
 }
 
 @media only screen and (max-width: 425px) {
